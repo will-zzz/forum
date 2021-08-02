@@ -152,6 +152,72 @@ h3 {
     resize: none;
 }
 
+/* START TABS */
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    text-align: center;
+    width: 100%;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+
+.collection-gallery {
+    width: 100%;
+    height: auto;
+}
+
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+/* END TABS */
+
 /*---------------------------------------------------
     FOOTER
 ----------------------------------------------------- */
@@ -163,6 +229,10 @@ h3 {
     line-height: 24px;
     color: #C0FEFC;
     margin-top: 100px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10px;
 }
 
 .site-footer hr {
