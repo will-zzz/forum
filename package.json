@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/EthBlox/forum#readme",
   "dependencies": {
+    "@openzeppelin/contracts": "^4.2.0",
     "bootstrap": "^5.0.2"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {}
 }
