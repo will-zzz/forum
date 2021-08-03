@@ -18,6 +18,7 @@
   "homepage": "https://github.com/EthBlox/forum#readme",
   "dependencies": {
     "@openzeppelin/contracts": "^4.2.0",
+    "@truffle/hdwallet-provider": "^1.4.2",
     "bootstrap": "^5.0.2"
   },
   "directories": {
